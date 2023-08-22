@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Acknowledgement and Hall Ticket</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .ticket {
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #f9f9f9;
+        }
+        .event-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .ticket-info {
+            margin-bottom: 15px;
+        }
+        .ticket-info p {
+            margin: 5px 0;
+        }
+        .barcode {
+            margin-top: 20px;
+        }
+        .barcode img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="ticket">
+        <div class="event-name">Event Name</div>
+        <div class="ticket-info">
+            <p><strong>Name:</strong>{{ student.student_name }}</p>
+            <p><strong>Enrollment No.:</strong> {{ student.roll_no }}</p>
+            <p><strong>Date: 17/12/2023</strong></p>
+            <p><strong>Time:</strong> 10:00 AM - 4:00 PM</p>
+            <p><strong>Location:</strong> Event Venue, City</p>
+        </div>
+        <div class="barcode">
+            <img src="barcode_image_url" alt="Barcode">
+        </div>
+        <p>Please present this ticket at the entrance for entry to the event.</p>
+        <p>Contact us at <em>rmctkg@gmail.com</em> for any queries.</p>
+    </div>
+</body>
+</html>

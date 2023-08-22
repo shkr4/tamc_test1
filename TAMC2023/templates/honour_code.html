@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Honour Code</title>
+	<style type="text/css">
+		
+        label{
+        	font-family: Arial, sans-serif;
+        	font-size: 1.1em;
+        	font-weight: bold;
+        	margin-right: 80px;
+        	margin-left: 80px;
+        	text-align: left;
+        	/*margin-top: 20px;
+        	margin-bottom: 20px;*/
+
+        }
+
+        span{
+        	font-size: 1.3em;
+
+        }
+        body {
+      font-family: Arial, sans-serif;
+      background-color: #e9edc9;
+      margin: 0;
+      padding: 0;
+    }
+    .registration-button {
+		  display: inline-block;
+		  padding: 10px 20px;
+		  background-color: #3498db;
+		  color: #ffffff;
+		  text-decoration: none;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		  margin: 20px;
+		}
+	</style>
+</head>
+<body>
+
+	<h1 align="center">छात्र प्रतिज्ञान | Student's Avowal</h1> <br>
+
+	<div style="margin: 30px;">
+
+		<p><strong>एक छात्र के रूप में, मैं परीक्षाओं के दौरान सत्यनिष्ठा, ईमानदारी और निष्पक्ष शिक्षण वातावरण बनाए रखने के महत्व को पहचानता हूं। मैं अपनी शिक्षा की विश्वसनीयता और मूल्य सुनिश्चित करने के लिए निम्नलिखित सिद्धांतों को कायम रखने के लिए प्रतिबद्ध हूं:</strong>
+<br><br>
+			<strong>As a student, I recognize the importance of maintaining integrity, honesty, and a fair learning environment during examinations. I commit to upholding the following principles in order to ensure the credibility and value of my education:</strong></p>
+	</div>
+
+	<div style="margin: 20px;">
+
+			<form action="/honour_code" method="post">
+			
+				
+
+				
+<div>
+				<label for="order"><div><span>आदेश:</span> मैं परीक्षा की अवधि के दौरान पर्यवेक्षकों के निर्देशों का पालन करूंगा। मैं गरिमा और शालीनता के साथ आचरण करूंगा <br>
+
+						<span>Order:</span> I shall abide by instructions of the invigilators during the period of the exam. I shall conduct myself with dignity and grace.
+					</div>
+				</label>
+				<input type="checkbox" name="order" value="ok" required></div>
+
+				<br><br>
+
+				<input type="checkbox" name="honesty" value="ok" required>
+
+				<label for="honesty"><span>ईमानदारी:</span> मैं सद्भावना के साथ परीक्षा संबंधी सभी कार्यों को स्वतंत्र रूप से पूरा करने की प्रतिज्ञा करता हूं; अनधिकृत सहायता मांगने या प्रदान करने से बचना। मैं परीक्षा दिशानिर्देशों द्वारा निषिद्ध किसी भी सामग्री या संसाधन का उपयोग नहीं करूंगा। <br>
+
+					<span>Honesty:</span> I pledge to complete all exam-related tasks independently in goodfaith; refraining from seeking or providing unauthorized assistance. I will not use any materials or resources prohibited by the exam guidelines.
+				</label>
+				<br><br>
+
+				<input type="checkbox" name="respect" value="ok" required>
+
+				<label for="respect"><span>सम्मान:</span> मैं किसी भी प्रकार की धोखाधड़ी, मिलीभगत या बेईमान व्यवहार में शामिल न होकर अपने साथी छात्रों और प्रशिक्षकों के प्रति सम्मान दिखाऊंगा। मैं समझता हूं कि इस तरह की हरकतें न केवल मेरी शिक्षा का अवमूल्यन करती हैं बल्कि दूसरों के प्रयासों को भी कमजोर करती हैं। मैं लाभ प्राप्त करने के लिए अनुचित तरीकों का सहारा नहीं लूंगा, यह पहचानते हुए कि सच्ची सीख मेरे अपने प्रयासों से आती है। <br>
+
+					<span>Respect:</span> I will show respect for my fellow students and instructors by not engaging in any form of cheating, collusion, or dishonest behavior. I understand that such actions not only devalue my education but also undermine the efforts of others. I will not resort to unfair means to gain an advantage, recognizing that true learning comes from my own efforts.
+				</label>
+				<br><br>
+
+				<input type="checkbox" name="focus" value="ok" required>
+
+				<label for="focus"><span>मौन और फोकस:</span> मैं परीक्षा के दौरान मौन और ध्यान बनाए रखने के महत्व को समझता हूं। मैं दूसरों को परेशान नहीं करूंगा, और मैं किसी भी प्रकार के संचार या चर्चा में शामिल नहीं होऊंगा जो परीक्षा के माहौल की अखंडता से समझौता कर सकता है।<br>
+
+					<span>Silence and Focus:</span> I understand the importance of maintaining silence and focus during exams. I will not disturb others, and I will not engage in any form of communication or discussion that could compromise the integrity of the exam environment.
+				</label>
+				<br><br>
+
+				<input type="checkbox" name="result" value="ok" required>
+
+				<label for="result"><span>परिणाम:</span> मुझे पता है कि सम्मान संहिता का उल्लंघन करने पर अयोग्यता सहित गंभीर परिणाम हो सकते हैं। मैं समझता हूं कि मेरी व्यक्तिगत और शैक्षणिक ईमानदारी बेईमानी से होने वाले किसी भी अल्पकालिक लाभ से कहीं अधिक मूल्यवान है।<br>
+
+					<span>Consequences:</span> I am aware that violating the honor code can lead to serious consequences, including disqualification. I understand that my personal and academic integrity are worth far more than any short-term gain that dishonesty might bring.
+				</label>
+
+				<div align="center" style="margin-bottom: 10px;">
+		<button type="submit" class="registration-button">Submit</button>
+	</div> 
+
+				
+				
+			</form>
+	
+</body>
+</html>
